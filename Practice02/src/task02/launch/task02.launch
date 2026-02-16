@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="task02" exec="publisher" name="publisher" output="screen">
+    <param from="$(find-pkg-share task02)/config/task02.yaml"/>
+  </node>
+</launch>

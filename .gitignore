@@ -1,0 +1,18 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ROS2 build artifacts
+Practice02/build/
+Practice02/install/
+Practice02/log/
